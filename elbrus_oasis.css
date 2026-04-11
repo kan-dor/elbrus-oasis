@@ -1,0 +1,99 @@
+@font-face {
+    font-family: Alumni Sans SC;
+    src: url(fonts/Alumni_Sans_SC/static/AlumniSansSC-ExtraLight.ttf);
+}
+@font-face {
+    font-family: Rubik Dirt;
+    src: url(fonts/Rubik_Dirt/RubikDirt-Regular.ttf);
+}
+
+body {
+    margin: 0px;
+}
+.menu {
+    background-color: #6F4E37;
+    color: #FBEEE6;
+}
+nav {
+    font-family: 'Alumni Sans SC';
+}
+a.ul_menu {
+    text-decoration: none;
+    color: #FBEEE6;
+    display: inline-block;
+    font-size: 24px;
+    height: 72px;
+}
+a.ul_menu_blog {
+    text-decoration: none;
+    color: #FBEEE6;
+    display: inline-block;
+    font-size: 24px;
+    height: 72px;
+    float: right;
+    padding-right: 25px;
+}
+ul {
+    display: inline;
+    text-align: center;
+    line-height: 72px;
+    margin: 0px;
+    padding-left: 25px;
+}
+
+.logo_menu {
+    float: left;
+}
+
+.home {
+    background-image: url(images/Chalet_background.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.home_filling {
+    background-color: rgba(111, 78, 55, 0.5);
+    background-size: cover;
+    width: 100%;
+    min-height: 700px;
+    color: #FFFAFA;
+    box-sizing: border-box; 
+
+    display: flex;          
+    flex-direction: column;                             
+    align-items: center; 
+    text-align: center;
+
+    position: relative;
+    padding-top: 260px;
+}
+
+h1.home_heading {
+    font-size: 54px;
+    font-family: 'Rubik Dirt';              
+    padding-top: 12px;   
+    margin: 0px;                 
+}
+
+p.home_subheading {
+    font-size: 30px;
+    font-family: 'Alumni Sans SC';
+    margin: 9px;
+    letter-spacing: 2px;
+}
+p.home_subheading2 {
+    font-size: 30px;
+    margin: -10px;
+    font-family: 'Alumni Sans SC';
+    letter-spacing: 2px;
+}
+
+.arrow_home {
+    height: 25px;
+    transform: rotate(90deg);
+    
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 12px);
+}
