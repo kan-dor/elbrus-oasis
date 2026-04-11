@@ -10,6 +10,8 @@
 body {
     margin: 0px;
 }
+
+/* Нав бар */
 .menu {
     background-color: #6F4E37;
     color: #FBEEE6;
@@ -45,6 +47,7 @@ ul {
     float: left;
 }
 
+/* Первый раздел */
 .home {
     background-image: url(images/Chalet_background.png);
     background-size: cover;
