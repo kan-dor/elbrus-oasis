@@ -103,9 +103,14 @@ p.home_subheading2 {
     left: calc(50% - 12px);
 }
 
+
+/* section 2 */
 .us{
     background-color: #6F4E37;
     height: 700px;
     width: 100%;
 
+}
+.h1-us{
+    color: #FBEEE6;
 }
