@@ -87,7 +87,7 @@ h1.home_heading {
     flex-direction: column;                             
     align-items: center; 
     text-align: center;      
-                    
+    margin-bottom: 0px;
 }
 
 p.home_subheading {
