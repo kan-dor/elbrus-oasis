@@ -102,3 +102,10 @@ p.home_subheading2 {
     bottom: 30px;
     left: calc(50% - 12px);
 }
+
+.us{
+    background-color: #6F4E37;
+    height: 700px;
+    width: 100%;
+
+}
