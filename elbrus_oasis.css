@@ -9,12 +9,16 @@
 
 body {
     margin: 0px;
+    background-color: #6F4E37;
 }
-
-/* Нав бар */
 .menu {
     background-color: #6F4E37;
     color: #FBEEE6;
+    width: 100%;
+    height: 72px;
+    position: fixed;
+    z-index: 2;
+
 }
 nav {
     font-family: 'Alumni Sans SC';
@@ -47,38 +51,44 @@ ul {
     float: left;
 }
 
-/* Первый раздел */
 .home {
     background-image: url(images/Chalet_background.png);
     background-size: cover;
     width: 100%;
     background-repeat: no-repeat;
+    height: calc(700px-15px);
+    background-attachment: fixed
+}
 
+.home_filling {
     background-color: rgba(111, 78, 55, 0.5);
     background-size: cover;
     width: 100%;
-    min-height: 700px;
+    height: 700px;
     color: #FFFAFA;
     box-sizing: border-box; 
 
-    display: flex;          
+            
     flex-direction: column;                             
     align-items: center; 
     text-align: center;
 
-    position: relative;
-    padding-top: 260px;
-}
-
-div.home_filling {
-
+    padding-top: 12px;   
+    margin: 0px;
+    
 }
 
 h1.home_heading {
+    display: flex;  
+    position: relative;
+    margin-top: 260px;
     font-size: 54px;
-    font-family: 'Rubik Dirt';              
-    padding-top: 12px;   
-    margin-bottom: 0px;                 
+
+    font-family: 'Rubik Dirt';        
+    flex-direction: column;                             
+    align-items: center; 
+    text-align: center; 
+
 }
 
 p.home_subheading {
@@ -98,9 +108,15 @@ p.home_subheading2 {
     height: 25px;
     transform: rotate(90deg);
     
-    position: absolute;
-    bottom: 30px;
-    left: calc(50% - 12px);
+    position: relative;
+    
+    margin-top: 200px;
+}
+
+.us {
+    background-color: #6F4E37;
+    height: 700px;
+    width: 100%;
 }
 
 
